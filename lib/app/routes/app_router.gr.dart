@@ -34,5 +34,6 @@ class MyHomeRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'MyHomeRoute';
+
   static const PageInfo<void> page = PageInfo<void>(name);
 }
