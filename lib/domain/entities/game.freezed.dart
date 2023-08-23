@@ -123,7 +123,7 @@ class _$$Game implements $Game {
       {this.id = -1,
       this.logoUrl,
       required this.name,
-      required final List<GameEvent> events = const []})
+      final List<GameEvent> events = const []})
       : _events = events;
 
   @override
@@ -174,7 +174,7 @@ abstract class $Game implements Game {
       {final int id,
       final String? logoUrl,
       required final String name,
-      required final List<GameEvent> events}) = _$$Game;
+      final List<GameEvent> events}) = _$$Game;
 
   @override
   int get id;

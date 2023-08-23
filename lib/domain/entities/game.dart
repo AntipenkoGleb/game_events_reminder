@@ -10,6 +10,6 @@ class Game with _$Game {
     @Default(-1) int id,
     String? logoUrl,
     required String name,
-    @Default([]) required List<GameEvent> events,
+    @Default([]) List<GameEvent> events,
   }) = $Game;
 }
